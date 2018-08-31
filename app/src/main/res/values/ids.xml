@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+    <item name="login_user_layout" type="id"/>
+    <item name="login_user" type="id"/>
+    <item name="login_password_layout" type="id"/>
+    <item name="login_password" type="id"/>
+    <item name="login_button" type="id"/>
+
+    <item name="home_materi" type="id"/>
+    <item name="home_hiragana" type="id"/>
+    <item name="home_katakana" type="id"/>
+    <item name="home_budaya" type="id"/>
+    <item name="home_profile" type="id"/>
+
+    <item name="hiragana_image_1" type="id"/>
+    <item name="hiragana_image_2" type="id"/>
+    <item name="hiragana_image_3" type="id"/>
+    <item name="hiragana_image_4" type="id"/>
+
+    <item name="katakana_parent_view" type="id"/>
+    <item name="katakana_image_1" type="id"/>
+    <item name="katakana_image_2" type="id"/>
+    <item name="katakana_image_3" type="id"/>
+    <item name="katakana_image_4" type="id"/>
+
+    <item name="profile_activity_app_bar" type="id"/>
+    <item name="profile_activity_collapse_toolbar" type="id"/>
+    <item name="profile_activity_logo" type="id"/>
+    <item name="profile_activity_toolbar" type="id"/>
+    <item name="profile_activity_content_view" type="id"/>
+    <item name="profile_activity_title" type="id"/>
+    <item name="profile_activity_desc" type="id"/>
+    <item name="profile_activity_visi_title" type="id"/>
+    <item name="profile_activity_visi_content" type="id"/>
+    <item name="profile_activity_misi_title" type="id"/>
+    <item name="profile_activity_misi_content_1" type="id"/>
+    <item name="profile_activity_misi_content_2" type="id"/>
+    <item name="profile_activity_misi_content_3" type="id"/>
+    <item name="profile_activity_misi_content_4" type="id"/>
+    <item name="profile_activity_misi_content_5" type="id"/>
+
+    <item name="materi_recycler_view" type="id"/>
+    <item name="materi_image" type="id"/>
+    <item name="materi_menu_image" type="id"/>
+    <item name="materi_menu_title" type="id"/>
+    <item name="materi_menu_content" type="id"/>
+    <item name="materi_menu_speaker" type="id"/>
+    <item name="materi_detail_pdf_view" type="id"/>
+
+    <item name="budaya_bon_odori" type="id"/>
+    <item name="budaya_kaligrafi" type="id"/>
+    <item name="budaya_upacara" type="id"/>
+
+    <item name="budaya_video_1" type="id"/>
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BelajarJepang</string>
+    <string name="home_materi">Zairyō / Materi (材料)</string>
+    <string name="home_hiragana">Hiragana (ひらがな)</string>
+    <string name="home_katakana">Katakana (カタカナ)</string>
+    <string name="home_budaya">Bunka /Budaya (文化)</string>
+    <string name="home_profile">Profile Sekolah</string>
+
+    <string name="login_hint_username">Username</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_button">Login</string>
+
+    <string name="profile_activity_title">SMA Negeri 73 Jakarta</string>
+    <string name="profile_activity_desc">
+        SMA Negeri 73 Jakarta merupakan sekolah negeri di daerah Jakarta Utara yang selalu
+        melakukan inovasi-inovasi dan perbaikan demi terlaksananya pelayanan prima dan terbaik kepada masyarakat DKI
+        pada khususnya dan masyarakat Indonesia pada umumnya. SMA Negeri 73 selalu berusaha untuk dapat memajukan peserta didik,
+        mempersiapkan peserta didik untuk dapat melanjutkan ke jenjang selanjutnya (perguruan tinggi) ataupun ke dalam dunia kerja
+        serta dunia wirausaha. Berkat dukungan dari pemerintah SMA Negeri 73 Jakarta mampu melaksanakan kurikulum 2013
+        dengan baik dan diizinkan pelaksanaannya oleh Kemdikbud yang tertuang dalam DAPODIK SMA Negeri 73 Jakarta.
+    </string>
+    <string name="profile_activity_visi_title">VISI</string>
+    <string name="profile_activity_visi_content">
+        “PENGEMBANGAN DAYA FIKIR GENERASI BERPRESTASI, MEMILIKI DAYA SAING, MANDIRI DAN BERAKHLAK MULIA”
+    </string>
+    <string name="profile_activity_misi_title">MISI :</string>
+    <string name="profile_activity_misi_content_1">
+        1. MELAKSANAKAN PEMBELAJARAN YANG MENYENANGKAN, MENCERDASKAN, BERMAKNA DAN BERBASIS IT, MENGGUNAKAN BAHASA INGGRIS SEBAGAI BAHASA PENGANTAR.
+    </string>
+    <string name="profile_activity_misi_content_2">
+        2. MENINGKATKAN PEROLEHAN NILAI DAN PROSEN TASELULUSAN UJIAN NASIONAL SERTA MEMPERSIAPKAN SISWA UNTUK MELANJUTKAN KE JENJANG PERGURUAN TINGGI YANG BERKUALITAS.
+    </string>
+    <string name="profile_activity_misi_content_3">
+        3. MENYIAPKAN DAN MELAKSANAKAN PEMBINAAN KEPADA SISWA MENJADI JUARA LOMBA AKADEMIS DAN NON AKADEMIS.
+    </string>
+    <string name="profile_activity_misi_content_4">
+        4. MEMPERSIAPKAN PESERTA DIDIK UNTUK MEMILIKI KETRAMPILAN DAN KEWIRAUSAHAAN.
+    </string>
+    <string name="profile_activity_misi_content_5">
+        5. MENINGKATKAN SIKAP DAN KEPRIBADIAN YANG SANTUN, BERETIKA DAN KECINTAAN PADA BUDAYA DAERAH.MEWUJUDKAN GENERASI YANG BERAKHLAK MULIA.
+    </string>
+
+    <string name="budaya_bon_odori">Bon Odori (盆踊り)</string>
+    <string name="budaya_kaligrafi">Kaligrafi (書道)</string>
+    <string name="budaya_upacara">Upacara minum teh (茶道)</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BudayaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="20dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@id/budaya_bon_odori"
+            android:foreground="@drawable/select_custom"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/budaya_image"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/budaya_bon_odori"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:foreground="@drawable/select_custom"
+            android:id="@id/budaya_kaligrafi"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/budaya_bon_odori"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="match_parent"
+                    android:text="@string/budaya_kaligrafi"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:foreground="@drawable/select_custom"
+            android:id="@id/budaya_upacara"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/budaya_kaligrafi"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="4dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="match_parent"
+                    android:text="@string/budaya_upacara"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

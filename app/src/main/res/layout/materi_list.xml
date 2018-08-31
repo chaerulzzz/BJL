@@ -1,0 +1,86 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@id/materi_menu_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/materi_01"
+                android:scaleType="centerCrop"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@id/materi_menu_title"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:text="Pelajaran 1"
+                        android:paddingLeft="5dp"
+                        android:background="#f8f1cd"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_margin="3dp"
+                        android:id="@id/materi_menu_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:ellipsize="end"
+                        android:text="23414112414124124124124141241414124124124 1"
+                        android:maxLines="1"/>
+
+
+                    <RelativeLayout
+                        android:id="@id/materi_menu_speaker"
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:visibility="visible"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_speaker"
+                            android:visibility="visible"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
